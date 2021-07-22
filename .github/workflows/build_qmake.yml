@@ -1,5 +1,5 @@
 name: QMake Build Matrix
-
+ 
 on:
   push:
     branches: [ master ]
