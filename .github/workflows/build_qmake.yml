@@ -45,6 +45,8 @@ jobs:
           password: ${{ secrets.nutstore_password }}
   
    build:
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     name: ${{ matrix.name }}
     runs-on: ${{ matrix.os }}
     strategy:
