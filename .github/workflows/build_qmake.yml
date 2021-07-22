@@ -65,7 +65,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: jing332/xmly-downloader-qt5
+          repository: hdchieh/xmly-downloader-qt5
           
       - name: Switch gcc and g++ version to 9
         if: runner.os == 'Linux'
